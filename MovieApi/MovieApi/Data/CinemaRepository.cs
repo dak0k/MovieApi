@@ -15,13 +15,13 @@ namespace MovieApi.Data
         public List<Hall> GetAllHalls()
         {
            
-                return _cinema.Halls;
+                return Cinema.Halls;
           
         } 
         public List<Film> GetAllFilms()
         {
         
-                return _cinema.Films;
+                return Cinema.Films;
            
         }
 

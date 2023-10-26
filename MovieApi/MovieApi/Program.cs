@@ -11,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 /*Создает экземпляр Синема Репо внедряет его в контейнер как зависемость ICinemа*/
-builder.Services.AddScoped<ICinema, CinemaRepository>();
+builder.Services.AddSingleton<ICinema, CinemaRepository>();
 
 
 
